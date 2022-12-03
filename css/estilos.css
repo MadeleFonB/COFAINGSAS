@@ -74,6 +74,11 @@ header .textos-header{
     color: #fff;
 }
 
+.textos-header > a{
+    text-decoration: none;
+ 
+}
+
 .wave{
     position: absolute;
     bottom: 0;
@@ -93,6 +98,8 @@ main .sobre-nosotros{
     width: 48%;
 
 }
+
+
 
 .sobre-nosotros .contenido-textos{
     width: 48%;
