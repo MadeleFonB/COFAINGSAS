@@ -96,6 +96,8 @@ main .sobre-nosotros{
 
 .imagen-about-us{
     width: 48%;
+    height: 40%;
+    
 
 }
 
@@ -142,7 +144,7 @@ main .sobre-nosotros{
 .imagen-port{
     width: 24%;
     margin-bottom: 10px;
-   /*height: 200px;*/
+    height: 200px;  /*Estaba comentarizado*/
     overflow: hidden;
     position: relative;
     cursor: pointer;
@@ -163,7 +165,7 @@ main .sobre-nosotros{
     height: 100%;
     top: 0;
     transform: scale(0);
-    background: hsla(273,91%,27%,0.7);
+    background: rgba(242, 238, 245, 0.7);
     transition: transform .5s;
     display: flex;
     justify-content:center ;
@@ -176,7 +178,7 @@ main .sobre-nosotros{
 }
 
 .hover-galeria p{
-    color: #fff;
+    color: rgb(7, 7, 7);
 }
 
 .imagen-port:hover .hover-galeria{
@@ -190,7 +192,7 @@ main .sobre-nosotros{
     justify-content: space-evenly;
 }
 .cards .card{
-    background: #0e025b;
+    background: #e5e4e9;
     display:flex ;
     width: 46%;
     height: 200px;
@@ -212,7 +214,7 @@ main .sobre-nosotros{
 
 .cards .card > .contenido-texto-card{
     width: 60%;
-    color: #fff;
+    color: rgb(4, 2, 31);
 
 }
 .cards .card > .contenido-texto-card p{
@@ -220,6 +222,37 @@ main .sobre-nosotros{
     padding-top: 5px;
 }
 
+/*Mapa*/
+
+.mapa {
+
+    /*padding-top: 2%;
+    padding-bottom: 2%;
+     centrar vertical y horizontalmente 
+    position: relative;
+    top: 50%;
+    left: 24%;*/
+    overflow:hidden;
+
+    padding-bottom:56.25%;
+
+    position:relative;
+
+    height:0;
+
+}
+
+.mapa iframe{
+    left:477px;
+
+    top: 13px;;
+
+    height:95%;
+
+    width:50%;
+
+    position:absolute;
+}
 /*Our team*/
 
 .about-services{
