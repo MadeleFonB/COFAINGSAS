@@ -226,32 +226,12 @@ main .sobre-nosotros{
 
 .mapa {
 
-    /*padding-top: 2%;
-    padding-bottom: 2%;
-     centrar vertical y horizontalmente 
-    position: relative;
-    top: 50%;
-    left: 24%;*/
-    overflow:hidden;
-
-    padding-bottom:56.25%;
-
-    position:relative;
-
-    height:0;
+   
 
 }
 
 .mapa iframe{
-    left:477px;
-
-    top: 13px;;
-
-    height:95%;
-
-    width:50%;
-
-    position:absolute;
+   
 }
 /*Our team*/
 
