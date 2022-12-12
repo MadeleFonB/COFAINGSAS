@@ -100,9 +100,6 @@ main .sobre-nosotros{
     
 
 }
-
-
-
 .sobre-nosotros .contenido-textos{
     width: 48%;
 }
@@ -142,7 +139,7 @@ main .sobre-nosotros{
 }
 
 .imagen-port{
-    width: 24%;
+    width: 20%;
     margin-bottom: 10px;
     height: 200px;  /*Estaba comentarizado*/
     overflow: hidden;
@@ -221,7 +218,17 @@ main .sobre-nosotros{
     font-weight: 300;
     padding-top: 5px;
 }
+ /*Slide*/
+.Slider{
+    margin-bottom: 20px;
 
+}
+
+
+.carousel-inner img {
+    width: 100%;
+    max-height: 460px;
+}
 /*Mapa*/
 
 .mapa {
@@ -336,6 +343,8 @@ footer{
     .cards .card{
         width: 90%;
     }
+
+    
 
     .cards .card:first-child{
         margin-bottom: 30px;    
