@@ -64,7 +64,7 @@ header .textos-header{
 }
 
 .textos-header{
-    font-size: 50px;
+    font-size: 55px;
     color: #fff;
 }
 
@@ -162,7 +162,7 @@ main .sobre-nosotros{
     height: 100%;
     top: 0;
     transform: scale(0);
-    background: rgba(242, 238, 245, 0.7);
+    background: rgba(8, 8, 8, 0.7);
     transition: transform .5s;
     display: flex;
     justify-content:center ;
@@ -175,7 +175,7 @@ main .sobre-nosotros{
 }
 
 .hover-galeria p{
-    color: rgb(7, 7, 7);
+    color: rgb(248, 248, 248);
 }
 
 .imagen-port:hover .hover-galeria{
