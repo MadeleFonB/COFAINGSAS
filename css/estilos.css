@@ -230,14 +230,9 @@ main .sobre-nosotros{
     max-height: 460px;
 }
 /*Mapa*/
-
-.mapaiframe {
-
-   
-
+.mapa{
+    padding-top:9px ;
 }
-
-
 /*Our team*/
 
 .about-services{
