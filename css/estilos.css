@@ -17,7 +17,7 @@ body{
 }
 
 .titulo{
-    color: #0e025b;
+    color: #043767;
     font-size:30px;
     text-align: center;
     margin-bottom: 60px;
@@ -29,29 +29,39 @@ body{
 header{
     width: 100%;
     height: 600px;
-    background: #0e025b;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, hsla(225, 89%, 26%, 0.647), hsla(240, 100%, 25%, 0.761)), url(../img/Portada.jpeg);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, hsla(347, 78%, 19%, 0.754), hsla(232, 100%, 25%, 0.72)), url(../img/Portada.jpeg); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    /*background: #0e025b;  /* fallback for old browsers */
+    background-image: url(../img/Portada.jpeg);
+    /*background: -webkit-linear-gradient(to right, hsla(225, 89%, 26%, 0.647), hsla(240, 100%, 25%, 0.761)), url(../img/Portada.jpeg);  /* Chrome 10-25, Safari 5.1-6 */
+   /* background: linear-gradient(to right, hsla(347, 78%, 19%, 0.754), hsla(232, 100%, 25%, 0.72)), url(../img/Portada.jpeg); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     background-size: cover;
     background-attachment: fixed;
     position: relative;
 }
+
 nav{
+    background-color:#043767 ;
     text-align: right;
-    padding:  30px 50px 0 0 ;
+    padding:  20px 50px 10px 0 ;
+}
+.container-fluid img{
+    width: 75%; 
+    float: left;
+    border-radius: 0.5em;
 }
 
-nav > a{
-    color: #fff;
+
+.nav-item > a{
+    color: rgb(250, 250, 251);
     font-weight: 300;
     text-decoration: none;
-    margin-right: 10px;
-
+    margin-right: 40px;
 }
 
 nav > a:hover{
     text-decoration: underline;
 }
+
+
 
 header .textos-header{
     display: flex;
@@ -94,9 +104,12 @@ main .sobre-nosotros{
     justify-content: space-evenly;
 }
 
+
+
 .imagen-about-us{
-    width: 48%;
-    height: 40%;
+    width: 450px;
+    height: 300px;
+    border-radius: 4em;
     
 
 }
@@ -108,23 +121,34 @@ main .sobre-nosotros{
 
 }
 .contenido-textos h3 span{
-    background: #0e025b;
+    background: #043767;
     color: #fff;
     border-radius: 50%;
     display: inline-block;
     text-align: center;
-    width: 30px;
-    height: 30px;
+    width: 40px;
+    height: 40px;
     padding: 2px;
     box-shadow: 0 0 6px rgba(0, 0, 0, 5) ;
     margin-right: 5px;
 }
 
-.contenido-textos p{
+/*.contenido-textos p{
     padding: 0px 0px 30px 15px;
     font-weight: 300;
     text-align: justify;
+}*/
+
+.col p{
+    padding: 0px 0px 30px 15px;
+    font-weight: 300;
+    text-align: left;
 }
+
+.col img{
+    border-radius: 0.5em;
+}
+
 
 /* GALERIA*/
 .portafolio{
@@ -162,7 +186,7 @@ main .sobre-nosotros{
     height: 100%;
     top: 0;
     transform: scale(0);
-    background: rgba(8, 8, 8, 0.7);
+    background: #043767;
     transition: transform .5s;
     display: flex;
     justify-content:center ;
@@ -189,23 +213,24 @@ main .sobre-nosotros{
     justify-content: space-evenly;
 }
 .cards .card{
-    background: #e5e4e9;
+    background: #fff;
     display:flex ;
     width: 46%;
     height: 200px;
     align-items: center;
     justify-content: space-evenly;
-    border-radius: 5px;
-    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.6);
-
+    /*border-radius: 0px;*/
+    /*box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.6);*/
+    border-color: #fff;
 }
 
 .cards .card img{
-    width: 100px;
+    width: 200px;
+    /*width: 100px;*/
     height: 100px;
     object-fit: cover;
-    border: 3px solid #fff ;
-    border-radius: 50%;
+    /*border: 3px solid #fff ;*/
+    /*border-radius: 50%;*/
     display: block;
 }
 
@@ -229,15 +254,18 @@ main .sobre-nosotros{
     width: 100%;
     max-height: 420px;
 }
+.carousel-inner{
+    border-radius:0.2em ;
+}
 
 /*Social bar*/
 html {
-    font-size: 16px;
+    font-size: 20px;
 }
 .social-bar{
     position: fixed;
     right: 0;
-    top: 35%;
+    top: 57%;
     font-size: 1.5rem;
     display: flex;
     flex-direction: column;
@@ -288,6 +316,11 @@ html {
 /*Mapa*/
 .mapa{
     padding-top:9px ;
+   
+}
+.mapaiframe{
+    border-color: #000;
+    border-radius:0.5em ;
 }
 /*Our team*/
 
@@ -305,11 +338,17 @@ html {
 
 .servicio-inf{
     width: 28%;
+    height: 20%;
     text-align: center;
+    
 }
 
 .servicio-inf img{
-    width: 90%;
+    object-fit: cover;
+
+    width: 250px;
+    height: 250px;
+    
 }
 .servicio-inf h4{
     margin: 10px 0;
@@ -317,13 +356,16 @@ html {
 
 .servicio-inf p{
 font-weight: 300;
-text-align: justify;
+text-align: start ;
+
+
+
 }
 
 /* footer*/
 
 footer{
-    background: #414141;
+    background: #043767;
     padding: 60px 0 30px 0;
     margin: auto;
     overflow: hidden;
@@ -335,32 +377,45 @@ footer{
     justify-content: space-evenly;
     margin: auto;
     padding-bottom: 50px;
-    border-bottom: 1px solid #ccc;
+    border-bottom: 1px solid #fff;
 
 }
 
 .contenedor-foo{
     text-align: center;
+    width: 50%;
 }
 .contenedor-foo h4{
     text-align: center;
     color: #fff;
-    border-bottom: 3px solid #af20d3;
+    border-bottom: 3px solid #fff;
     padding-bottom: 5px;
     margin-bottom: 10px;
 }
 .contenedor-foo p{
-    color: #ccc;
+    color: #fff;
 }
 
 .titulo-final{
     text-align: center;
     font-size: 20px 0 0 0;
-    color: #9e9797;
+    color: #fff;
+}
+
+.imglogofooter{
+    width: 50%;
+    border-radius: 0.5em;
+
+}
+
+.content-foo{
+    width: 40%;
+    text-align: center;
+
 }
 
 
-@media screen and (max-width:900px) {
+/*@media screen and (max-width:900px) {
     header{
         background-position: center;
     }
@@ -378,11 +433,9 @@ footer{
         width: 90%;
     }
 
-    /*Gsleria*/
     .imagen-port{
         width: 44%;
     }
-    /*Clientes*/
     .cards{
         flex-direction: column;
         justify-content: center;
@@ -398,7 +451,6 @@ footer{
     .cards .card:first-child{
         margin-bottom: 30px;    
     }
-    /*Servicios*/
     .servicio-cont{
         justify-content: center;
         flex-direction: column;
@@ -417,9 +469,9 @@ footer{
     .servicio-inf img{
         width: 90%;
     }
-}
+}*/
 
-@media screen and (max-width:500px) {
+/*@media screen and (max-width:500px) {
     nav{
         text-align: center;
         padding: 30px 0 0 0;
@@ -437,7 +489,6 @@ footer{
         font-size: 20px;
     }
 
-    /*About us*/
     .imagen-about-us{
         margin-bottom: 60px;
         width: 99%;
@@ -447,12 +498,10 @@ footer{
         width: 95%;
     }
 
-    /*Galeria*/
     .imagen-port{
         width: 95%;
     }
 
-    /*Clientes*/
     .cards .card{
     height: 450px;
     display: flex;      
@@ -465,7 +514,6 @@ footer{
         height: 90px;
     }
 
-    /*Footer*/
     .contenedor-footer{
         flex-direction: column;
         border: none;
@@ -482,12 +530,12 @@ footer{
     }
 
     .content-foo p{
-    color: #ccc;   
-    border-bottom: 1px solid #f2f2f2;
+    color: #fff;   
+    border-bottom: 1px solid #fff;
     padding-bottom: 20px;
  }
 
  .titulo-final{
     font-size: 20px;
  }
-}
+}*/

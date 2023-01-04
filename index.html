@@ -15,19 +15,39 @@
 </head>
 <body>
     <header>
-        <nav>
-            <a href="/index.html">Inicio</a>
-            <a href="/acerca.html">Acerca de</a>
-            <a href="/Servicios.html">Servicios</a>
-            <a href="#Contacto">Contacto</a>
+        
+        <nav  class="navbar navbar-expand-lg bg-body-tertiary " data-bs-theme="dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="/index.html"><img class="imgNavar" src="/img/LOGO-COFAING.PNG" alt=""></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                  <ul class="navbar-nav">
+                    <li class="nav-item">
+                      <a style="color: #fff;" class="nav-link active" aria-current="page" href="/index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="/acerca.html">Sobre Nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="/Servicios.html">Servicios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Contacto">Contactanos</a>
+                      </li>
+                  
+                  </ul>
+                </div>
+              </div>
         </nav>
         <section class="textos-header">
-            <a  style="color: #fff ;" href="/index.html">
-                <h1>COFAING</h1>
-                <h2>SAS</h2></a>
+            <a  style="color: rgb(1, 2, 10) ;" href="/index.html">
+                <!--<h1>COFAING</h1>
+                <h2>SAS</h2></a>-->
         </section>
         <div class="wave" style="height: 150px; overflow: hidden;" >
-            <svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;">
+            <svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 200%; width: 100%;">
                 <path d="M0.00,49.98 C149.99,150.00 349.20,-49.98 500.00,49.98 L500.00,150.00 L0.00,150.00 Z" style="stroke: none; fill: #fff;"></path>
             </svg>
         </div>
@@ -35,9 +55,11 @@
     <div class="social-bar">
         <a href="https://www.facebook.com/Cofaing" class="icon icon-facebook2" target="_blank"></a>
         <a href="https://www.youtube.com/@cofaingsas3271" class="icon icon-youtube"  target="_blank"></a>
-        <a href="" class="icon icon-instagram"target="_blank" ></a>
+        <a href="https://www.instagram.com/Cofaing_SAS/" class="icon icon-instagram"target="_blank" ></a>
     </div>
+   
     <main>
+        
         <section class="contenedor sobre-nosotros">
             <h2 class="titulo">Nuestro producto</h2>
             <div class="contenedor-sobre-nosotros">
@@ -48,36 +70,35 @@
                         Siderúrgica, la Industria Cementera, la Industria Minera y de las
                         construcciones metálicas, máquinaria en General y fabricación de productos
                         para obras civiles y de madera plástica. </p>
-                    <h3><span>2</span>Los mejores productos</h3>
+                    <h3><span>2</span>Infraestructura</h3>
                     <p> Se cuenta con instalaciones de 2500 m2 cubiertos y 5000 m2 en campo abierto
                         y recursos en nuestras instalaciones para los procesos de corte, armado,
                         soldadura, limpieza y pintura. 
                         </p>
                 </div>
             </div>
+            
         </section>
+        
        
         <section class="clientes contenedor">
             <h2 class="titulo">Nuestros Clientes</h2>
             <div class="cards">
                 <div class="card">
-                    <img src="img/holcim-negro.PNG" alt="" width="50" height="50">
+                   <a href="https://www.holcim.com.co/productos/cemento"><img src="img/Clientes/rsz_holcim-logo.png" alt="" ></a> 
                     <div class="contenido-texto-card">
-                       <a style="color: rgb(2, 1, 12) ;" href="https://colombia.argos.co/"> <h4>HOLCIM</h4></a>
                 </div>
             </div>
 
             <div class="card">
-                <img src="img/milpa-negrop.PNG" alt="">
+                <a href="http://www.milpa.com.co/"><img src="img/Clientes/milpa.jpg" alt=""></a>
                 <div class="contenido-texto-card">
-                    <a style="color:rgb(2, 1, 12) ;" href="http://www.milpa.com.co/"> <h4>MILPA</h4></a>
                 </div>
         </div>
 
         <div class="card">
-            <img src="img/ECOINDUSTRIA-NEGRO.PNG" alt="">
+           <a href="https://ecoindustriasas.com/"><img src="img/Clientes/ECO INSDUSTRIA.jpg" alt=""></a> 
             <div class="contenido-texto-card">
-                <a style="color:rgb(2, 1, 12) ;" href="https://ecoindustriasas.com/"> <h4>ECO INDUSTRIA</h4></a>
             </div>
          </div>
 
@@ -87,23 +108,20 @@
         <h2 class="titulo"></h2>
         <div class="cards">
             <div class="card">
-                <img src="img/asdetboy-negro.PNG" alt="" width="50" height="50">
+                <a href="https://asdetboysas.com.co/"><img src="img/Clientes/ASDEBOY.jpg" alt="" ></a>
                 <div class="contenido-texto-card">
-                    <a style="color:rgb(2, 1, 12);" href="https://asdetboysas.com.co/"> <h4>ASDEYBOY</h4></a>
                 </div>
         </div>
 
         <div class="card">
-            <img src="img/sanmarcos-negro.PNG" alt="">
+            <a href="https://cementosanmarcos.com/"><img src="img/Clientes/rsz_san_marcos.png" alt=""></a>
             <div class="contenido-texto-card">
-                <a style="color: rgb(2, 1, 12) ;" href="https://cementosanmarcos.com/"> <h4>SAN MARCOS</h4></a>
             </div>
     </div>
 
     <div class="card">
-        <img src="img/pazderio.PNG" alt="">
+        <a href="https://www.pazdelrio.com.co/es-es/Institucional/Paginas/proceso.aspx"><img src="img/Clientes/pazdelrio.jpg" alt=""></a>
         <div class="contenido-texto-card">
-            <a style="color:rgb(2, 1, 12) ;" href="https://www.pazdelrio.com.co/es-es/Institucional/Paginas/proceso.aspx"> <h4>PAZ DE RÍO</h4></a>
         </div>
      </div>
 
@@ -113,23 +131,20 @@
     <h2 class="titulo"></h2>
     <div class="cards">
         <div class="card">
-            <img src="img/MINEX-NEGRO.PNG" alt="" width="50" height="50">
+            <a href="http://www.minex.com.co/home.html"><img src="img/Clientes/MinexPNG.jpg" alt=""></a>
             <div class="contenido-texto-card">
-                <a style="color:rgb(2, 1, 12) ;" href="http://www.minex.com.co/home.html"> <h4>MINEX</h4></a>
             </div>
     </div>
 
     <div class="card">
-        <img src="img/Cemnal-negro.PNG" alt="">
+        <a href=http://www.cementosnacionales.com.co/"><img src="img/Clientes/CEMENTOS NACIONALES.jpg" alt=""></a>
         <div class="contenido-texto-card">
-            <a style="color: rgb(2, 1, 12);" href="http://www.cementosnacionales.com.co/"> <h4>CEMNAL S.A </h4></a>
         </div>
 </div>
 
 <div class="card">
-    <img src="img/oriente-negro.PNG" alt="">
+    <a href="https://www.cementosdeloriente.com/"><img src="img/Clientes/ORIENTE.jpg" alt=""></a>
     <div class="contenido-texto-card">
-        <a style="color: rgb(2, 1, 12)" href="https://www.cementosdeloriente.com/"> <h4>ORIENTE </h4></a>
     </div>
  </div>
 
@@ -139,34 +154,31 @@
     <h2 class="titulo"></h2>
     <div class="cards">
         <div class="card">
-            <img src="img/patriota.PNG" alt="" width="50" height="50">
+           <a href="https://www.facebook.com/media/set/?set=a.10154339196812037.1073741830.313162372036&type=3"><img src="img/Clientes/patriotaPNG.jpg" alt="" width="50" height="50"></a> 
             <div class="contenido-texto-card">
-                <a style="color:rgb(2, 1, 12) ;" href="http://www.minex.com.co/home.html"> <h4>CEMENTOS PATRIOTA</h4></a>
             </div>
     </div>
 
     <div class="card">
-        <img src="img/Cemnal-negro.PNG" alt="">
+        <a href="https://empresite.eleconomistaamerica.co/RIBELL-SAS.html"><img src="img/Clientes/Ribell.jpg" alt=""></a>
         <div class="contenido-texto-card">
-            <a style="color: rgb(2, 1, 12);" href="http://www.cementosnacionales.com.co/"> <h4>RIBELL </h4></a>
         </div>
 </div>
 
 <div class="card">
-    <img src="img/argos-negro.PNG" alt="">
+    <a href="https://argos.co/"><img src="img/Clientes/argos.jpg" alt=""></a>
     <div class="contenido-texto-card">
-        <a style="color: rgb(2, 1, 12)" href="https://www.grupoargos.com/"> <h4>ARGOS </h4></a>
     </div>
  </div>
 
 </section>
-<section >
-    <div class="mapa" style="text-align: center;">
-        <iframe class="mapaiframe" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3969.691744097453!2d-72.90283708473133!3d5.757431195827558!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e6a462a48984999%3A0x447d4bc620d057c1!2sCOFAING%20SAS!5e0!3m2!1ses-419!2sco!4v1670290446715!5m2!1ses-419!2sco" 
-         width="600" height="450" style="border:0;"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" ></iframe>
+<section  >
+    <div class="mapa" style="text-align: center;" >
+        <iframe id="Mapa" class="mapaiframe" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3969.691744097453!2d-72.90283708473133!3d5.757431195827558!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e6a462a48984999%3A0x447d4bc620d057c1!2sCOFAING%20SAS!5e0!3m2!1ses-419!2sco!4v1670290446715!5m2!1ses-419!2sco" 
+         width="750" height="450" style="border:0;"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" ></iframe>
     </div>
 </section>
-    <section class="about-services">
+    <!--<section class="about-services">
         <div class="contenedor">
             <h2 class="titulo">Nuestros Servicios</h2>
             <div class="servicio-cont">
@@ -190,31 +202,33 @@
 
             </div>
         </div>
-    </section>
+    </section>-->
     </main>
     <footer>
         <div class="contenedor-footer" id="Contacto">
            <div class="content-foo">
-            <h4>Contacto</h4>
-            <p>3144115783</p>
+            <h4 style="color: #fff;">Contacto</h4>
+            <p style="color: #fff;">3144115783</p>
+            <img src="/img/LOGO-COFAING.PNG" alt="" class="imglogofooter">
+
            </div> 
 
            <div class="content-foo">
-            <h4>Email</h4>
-            <p>gerencia@cofaingsas.com</p>
-            <p>josehurtado.comercial@gmail.com</p>
-            <p>administracion@cofaingsas.com</p>
-            <p>proyectos@cofaingsas.com
+            <h4 style="color: #fff;">Email</h4>
+            <p style="color: #fff;">gerencia@cofaingsas.com</p>
+            <p style="color: #fff;">josehurtado.comercial@gmail.com</p>
+            <p style="color: #fff;">administracion@cofaingsas.com</p>
+            <p style="color: #fff;">proyectos@cofaingsas.com
             </p>
 
            </div> 
 
            <div class="content-foo">
-            <h4>Ubicación</h4>
-            <p>Sogamoso-Boyacá</p>
+            <h4 style="color: #fff;">Ubicación</h4>
+            <p style="color: #fff;">Sogamoso-Boyacá</p>
            </div> 
         </div>
-        <h2 class="titulo-final">&copy;Jose Hurtado</h2>
+        <h2 style="color: #fff;" class="titulo-final">&copy;Jose Hurtado</h2>
     </footer>
 
 

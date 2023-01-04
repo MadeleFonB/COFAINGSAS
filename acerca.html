@@ -15,19 +15,37 @@
 </head>
 <body>
     <header>
-        <nav>
-            <a href="/index.html">Inicio</a>
-            <a href="/acerca.html">Acerca de</a>
-            <a href="/Servicios.html">Servicios</a>
-            <a href="#Contacto">Contacto</a>
+        <nav  class="navbar navbar-expand-lg bg-body-tertiary " data-bs-theme="dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="/index.html"><img src="/img/LOGO-COFAING.PNG" alt=""></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                  <ul class="navbar-nav">
+                    <li class="nav-item">
+                      <a style="color: #fff;" class="nav-link active" aria-current="page" href="/index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="/acerca.html">Sobre Nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="/Servicios.html">Servicios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Contacto">Contactanos</a>
+                      </li>
+                  
+                  </ul>
+                </div>
+              </div>
         </nav>
         <section class="textos-header">
             <a  style="color: #fff ;" href="/index.html">
-                <h1>COFAING</h1>
-                <h2>SAS</h2></a>
+                
         </section>
         <div class="wave" style="height: 150px; overflow: hidden;" >
-            <svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;">
+            <svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 200%; width: 100%;">
                 <path d="M0.00,49.98 C149.99,150.00 349.20,-49.98 500.00,49.98 L500.00,150.00 L0.00,150.00 Z" style="stroke: none; fill: #fff;"></path>
             </svg>
         </div>
@@ -35,13 +53,13 @@
     <div class="social-bar">
         <a href="https://www.facebook.com/Cofaing" class="icon icon-facebook2" target="_blank"></a>
         <a href="https://www.youtube.com/@cofaingsas3271" class="icon icon-youtube"  target="_blank"></a>
-        <a href="" class="icon icon-instagram"target="_blank" ></a>
+        <a href="https://www.instagram.com/Cofaing_SAS/" class="icon icon-instagram"target="_blank" ></a>
     </div>
     <main>
         <section class="contenedor sobre-nosotros">
             <h2 class="titulo">Nuestra Políticas</h2>
             <div class="contenedor-sobre-nosotros">
-                <img src="img/acercade.svg" width="300" height="300" alt="" class="imagen-about-us">
+                <img src="img/ilustracion.svg"  alt="" class="imagen-about-us">
                 <div class="contenido-textos">
                     <h3><span>1</span>MISIÓN</h3>
                     <p> Somos una empresa prestadora de servicios para el desarrollo de proyectos
@@ -54,7 +72,7 @@
 
         <section class="contenedor sobre-nosotros">
             <div class="contenedor-sobre-nosotros">
-                <img src="img/vision.svg" width="300" height="300" alt="" class="imagen-about-us">
+                <img src="img/acercade.svg"  alt="" class="imagen-about-us">
                 <div class="contenido-textos">
                     <h3><span>2</span>VISIÓN</h3>
                     <p> En el 2026 seremos una empresa de construcciones y fabricaciones para la
@@ -68,9 +86,9 @@
 
         <section class="contenedor sobre-nosotros">
             <div class="contenedor-sobre-nosotros">
-                <img src="img/POLITICA.svg" width="300" height="300" alt="" class="imagen-about-us">
+                <img src="img/politica2.svg"  alt="" class="imagen-about-us">
                 <div class="contenido-textos">
-                    <h3><span>2</span>POLÍTICA DE CALIDAD</h3>
+                    <h3><span>3</span>POLÍTICA DE CALIDAD</h3>
                     <p> Somos una empresa dedicada al sector Industrial y de Manufactura
                         comprometida en entregar productos y servicios de alta calidad, que estén de
                         acuerdo a las necesidades y especificaciones de nuestros clientes con soportes
@@ -154,51 +172,64 @@
     <section class="about-services">
         <div class="contenedor">
             <h2 class="titulo">Nuestros Servicios</h2>
-            <div class="servicio-cont">
-                <div class="servicio-inf">
-                    <img src="img/ilustracion.svg" alt="">
-                    <h4>Name</h4>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit, saepe architecto! Dolorum minima totam molestiae dicta commodi unde quo blanditiis, doloribus expedita hic velit dignissimos nostrum consequatur vero rem natus!</p>
+            <div class="container text-center">
+                <div class="row row-cols-3">
+                  <div class="col">
+                    <img src="img/TrabajoEnEquipo.jpg" alt="">
+                    </div>
+                  <div class="col">
+                    <img src="img/Soldador.jpg" alt="">
+                    </div>
+                  <div class="col">
+                    <img src="img/Cortadora.jpg" alt="">
+                    </div>
+                  <div class="col">
+                    <h4>Trabajo en Equipo</h4>
+                    <p>Somos una empresa boyacense especializada en el diseño y fabricación
+                    de estructuras  metálicas con 20 años de experiencia en  servicios de mantenimiento 
+                    y reparación de equipos de las plantas de producción cementera , siderúrgica y Minera, 
+                    satisfaciendo las necesidades los requerimientos de calidad  de nuestros clientes de forma eficiente y oportuna.
+                    </p>
+                    </div>
+                  <div class="col">
+                    <h4>Armado y Soldadura</h4>
+                    <p>Estamos en condiciones de realizar fabricaciones y montajes de estructuras, fabricación de equipos con y sin diseño suministrado, atendiendo las 
+                    características solicitadas y  las calculadas con  nuestros diseños que satisfagan las necesidades como  también la realización de servicios de reparación de maquinaria 
+                    y equipos  en nuestras instalaciones</p>
+                    </div>
+                  <div class="col">
+                    <h4>Cortes CNC</h4>
+                    <p>Diseño de cortes con plasma y oxicorte en diferentes espesores para avisos publicitarios, y todo lo relacionado con la metalistería del acero.</p>
+                  </div>
                 </div>
-
-                <div class="servicio-inf">
-                    <img src="img/ilustracion.svg" alt="">
-                    <h4>Name</h4>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit, saepe architecto! Dolorum minima totam molestiae dicta commodi unde quo blanditiis, doloribus expedita hic velit dignissimos nostrum consequatur vero rem natus!</p>
-                </div>
-
-                <div class="servicio-inf">
-                    <img src="img/POLITICA.svg" alt="">
-                    <h4>Name</h4>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit, saepe architecto! Dolorum minima totam molestiae dicta commodi unde quo blanditiis, doloribus expedita hic velit dignissimos nostrum consequatur vero rem natus!</p>
-                </div>
-
-            </div>
+              </div>
         </div>
     </section>
+   
     </main>
     <footer>
         <div class="contenedor-footer" id="Contacto">
            <div class="content-foo">
-            <h4>Contacto</h4>
-            <p>3144115783</p>
-           </div> 
+            <h4 style="color: #fff;">Contacto</h4>
+            <p style="color: #fff;">3144115783</p>
+            <img src="/img/LOGO-COFAING.PNG" alt="" class="imglogofooter">
+        </div> 
 
            <div class="content-foo">
-            <h4>Email</h4>
-            <p>gerencia@cofaingsas.com</p>
-            <p>josehurtado.comercial@gmail.com</p>
-            <p>administracion@cofaingsas.com</p>
-            <p>proyectos@cofaingsas.com
+            <h4 style="color: #fff;">Email</h4>
+            <p style="color: #fff;">gerencia@cofaingsas.com</p>
+            <p style="color: #fff;">josehurtado.comercial@gmail.com</p>
+            <p style="color: #fff;">administracion@cofaingsas.com</p>
+            <p style="color: #fff;">proyectos@cofaingsas.com
             </p>
            </div> 
 
            <div class="content-foo">
-            <h4>Ubicación</h4>
-            <p>Sogamoso-Boyacá</p>
+            <h4 style="color: #fff;">Ubicación</h4>
+            <p style="color: #fff;">Sogamoso-Boyacá</p>
            </div> 
         </div>
-        <h2 class="titulo-final">&copy;JOSÉ R. HURTADO BALAGUERA</h2>
+        <h2 style="color: #fff;" class="titulo-final">&copy;JOSÉ R. HURTADO BALAGUERA</h2>
     </footer>
 
 
